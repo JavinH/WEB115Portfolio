@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Javin Hendrix - Portfolio Website</title>
+
+
+    <link rel="stylesheet" href="https://use.typekit.net/dih4yau.css">
+
+    <script data-search-pseudo-elements defer src="https://kit.fontawesome.com/86a50c229b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/fls0mql.css">
+    <link rel="stylesheet" href="responsive-nav.css">
+
+    <link href="reset.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="responsive-nav.css">
+    <link href="style.css" rel="stylesheet">
+    <style type="text/css">
+    </style>
+    <link href="lightbox.css" rel="stylesheet" />
+
+
+    <style>
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+
+</head>
+
+
+<body class="background">
+
+
+    <header>
+        <nav class="nav-collapse fixed">
+            <ul>
+
+                <li class="" id="homebox"><a href="portfolio.html">Home</a></li>
+
+                <li class="" id="gallerybox"><a href="portfolio_gallery.html">Gallery</a></li>
+
+                <li class="" id="aboutbox"><a href="portfolio_about.html">About</a></li>
+
+
+                <li id="contactbox"><a href="portfolio_contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+
+
+        <div id="aboutbar" class="bar">
+            <h1>About</h1>
+           
+        </div>
+    </header>
+    <div id="about" class="content content_b">
+        <div class="pagetext">
+            <h2>Javin Hendrix</h2>
+            <div class=clearfix></div>
+            <p>
+                Hi! I'm Javin. I am currently a full-time student enrolled in Alamance Community College pursuing a degree in computer programming.
+                I have come a long way since I have started programming, and this website is here to show my progress! Although this is specific to
+                web development and learning the foundations of JavaScript, I have quite the experience in the following: <br><br>
+                Java (3 years) <br>
+                Python (4 years) <br>
+                C++ (1 year) <br><br>
+                Take a look around and enjoy all the progress I have completed over the span of the semester learning JavaScript!
+            </p>
+
+
+
+        </div>
+    </div>
+
+
+    <div class=clearfix></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/responsive-nav.js"></script>
+
+    <script>
+        var navigation = responsiveNav(".nav-collapse", {
+            animate: true, 
+            transition: 284, 
+            closeOnNavClick: false, 
+        });
+    </script>
+    <script src="js/lightbox.min.js"></script>
+
+    <script>
+        lightbox.option({
+            'disableScrolling': true,
+            'fadeDuration': 300,
+            'imageFadeDuration': 800,
+            'resizeDuration': 200,
+            'wrapAround': false
+        })
+    </script>
+
+    <script>
+        function enlargeImg(img) {
+            img.style.transform = "scale(3)";
+            img.style.transition =
+                "transform 0.25s ease";
+        }
+    </script>
+
+</body></html>

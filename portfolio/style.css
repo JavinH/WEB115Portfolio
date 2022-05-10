@@ -1,0 +1,440 @@
+html {
+    font-size: 16px;
+    height: 100vh;
+
+}
+
+body {
+    font-family: "dunbar-text", sans-serif;
+    background-color: black;
+    overscroll-behavior: none;
+    margin: 0px;
+    transition: all 0.5s ease;
+}
+
+.container_fs {
+    width: 100%;
+    height: 100vh;
+}
+
+.box {
+    height: 25vh;
+    width: 100%;
+    background-color: black;
+}
+
+
+.button {
+    background-color: green;
+}
+
+.logo {
+    width: 30vw;
+    margin-top: 475px;
+
+}
+
+
+.background {
+    background-image: url(images/j1.jpg);
+    height: auto;
+    margin: auto;
+    background-size: 85vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.bar {
+    position: fixed;
+    width: 7.8vw;
+    text-transform: uppercase;
+    padding: 0;
+    margin-left: 0;
+    text-align: center;
+}
+
+.content_b {
+
+    background-color: rgba(0, 0, 0, .7);
+    box-shadow: 5px 0px 30px black inset;
+    margin-bottom: 0;
+    width: 86.vw;
+    height: fill;
+    margin-left: 8vw;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index:-9999;
+    backdrop-filter: blur(10px);
+}
+
+
+
+.bar h1 {
+    font-size: 10vw;
+    font-weight: 900;
+    transform: rotate(-90deg);
+    padding: 0;
+    margin-top: 80vh;
+    margin-left: -1vw;
+    text-align: right;
+    z-index: 999;
+    transition: margin 0.1s ease;
+}
+
+@media only screen and (max-width : 768px) {
+    .bar h1 {
+    margin-top: 60vh;
+}
+}
+    @media only screen and (max-width : 1400px) {
+    .bar h1 {
+    margin-top: 65vh;
+}
+    
+       
+}
+h1 {
+    font-family: "dunbar-low", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    line-height: 4.5vw;
+    padding-top: 35vh;
+    font-size: 5vw;
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+    margin-top: -5px;
+
+}
+
+.pagetext {
+    color: white;
+    float: left;
+    padding-left: 4vw;
+}
+
+.pagetext h2 {
+    font-weight: 700;
+    font-size: 3vw;
+    color: white;
+}
+
+.pagetext p {
+    color: darkgrey;
+    font-size: 1rem;
+}
+
+
+
+.footer{
+    width:90.5vw;
+    height: 100px;
+    margin-left: -4vw;
+    z-index: 9999999;
+    float: right;
+}
+@media only screen and (max-width : 768px) {
+    .footer{
+        width: 85vw;
+    }  
+}
+
+.footerlogo{
+    
+    width: 75px;
+    margin-top: 0;
+    z-index: 999999999999;
+    float: right;
+    margin-right: 15px;    
+}
+.footericons{
+    width: 40px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+.homebar {
+    height: 12%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -10vh, 0vw;
+    float: left;
+    position: fixed;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-position: left, top;
+    margin-top: -200px;
+    transition: all 0.5s;
+    z-index: -9999;
+    box-shadow: 0 0 1000px rgba(0, 0, 0, 0.9) inset;
+}
+
+@media only screen and (max-width : 768px) {
+    .homebar {
+        background-position: -20vh;
+    }
+}
+
+.galimg {
+    float: left;
+    display: block;
+    margin-left: 8px;
+    margin-bottom: 6px;
+    border-radius: 1px;
+}
+
+
+@media only screen and (max-width : 768px) {
+    .galimg {
+        width: 70vw;
+        margin-left: 15px;
+    }
+}
+
+.break{
+    height: 100px;
+    width: 10vw;
+}
+
+.aboutcontent {
+    display: block;
+    margin-left: 10vw;
+    margin-right: 18vw;
+}
+
+#aboutbar.bar h1{
+    margin-bottom: -10vw;
+}
+
+
+#about.content {
+    float: left;
+    margin-left: 7.8vw;
+    padding-left: 10vw;
+}
+
+
+.aboutlogo {
+    float: left;
+    display: block;
+    width: 25vw;
+    margin-top: 300px;
+    border-radius: 5px;
+}
+
+#about h2,
+#about p {
+    display: block;
+    float: left;
+    width: 25vw;
+    margin-bottom: -10px;
+    margin-left: -2vw;
+}
+
+#about h2 {
+    margin-top: 300px;
+    font-size: 2vw;
+}
+
+@media only screen and (max-width : 768px) {
+
+    .aboutlogo {
+        width: 60vw;
+        padding-top: 0;
+        margin-top: 10vw;
+        margin-left: 2vw;
+    }
+
+    #about h2,
+    #about p {
+        width: 60vw;
+        padding-top: 5vw;
+        margin-top: 0;
+
+    }
+
+    #about h2 {
+        font-size: 6vw;
+        margin-top: 0;
+    }
+
+    .aboutcontent {
+        margin-top: 0;
+    }
+}
+
+
+#about {
+    height: 100vh;
+    width: 82.2vw;
+}
+
+#contact {
+    height:100vh;
+    width: 92vw;
+}
+form{
+    margin-left: 35vw;
+    margin-top: 30vh;
+    float: left;
+    
+}
+
+form p{
+    color:white;
+}
+
+.contactlogo{
+     width: 200px;
+    margin-top: 700px;
+    z-index: 99999999;
+    margin-left: -30vw;
+}
+
+
+.img_responsive {
+    width: 100%;
+    height: 370px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width : 768px) {
+
+    .img_responsive {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pagetext h2 {
+        font-size: 7vw;
+        margin-bottom: 0;
+    }
+
+    .pagetext p {
+        margin-top: 10vw;
+        font-size: 3vw;
+    }
+}
+
+
+
+.nav-collapse li {
+    text-align: right;
+}
+
+.nav-collapse{
+    z-index:9999;    
+}
+.nav-collapse a {
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding-right: 10px;
+    border-right: 8px solid white;
+    z-index: 9999999999999;
+}
+
+.nav-collapse li:hover a {
+    color: slategray;
+}
+
+.nav-collapse #homebox:hover a {
+    border-color: slategray;
+}
+
+.nav-collapse #gallerybox:hover a {
+    border-color: slategray;
+}
+
+.nav-collapse #aboutbox:hover a {
+    border-color: slategray;
+}
+
+.nav-collapse #contactbox:hover a {
+    border-color: slategray;
+}
+
+.nav-collapse.fixed ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-bottom: 0;
+    width: 300px;
+    transform: all 1s ease;
+}
+
+@media only screen and (max-width : 768px) {
+    .nav-collapse.fixed ul {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .8);
+        margin-top: 0px;
+        padding-top: 50px;
+    }
+}
+
+.icon::before {
+    display: block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transition: all 1s ease;
+}
+
+.icon.nav-toggle {
+    font: var(--fa-font-solid);
+
+    user-select: none;
+    text-decoration: none;
+    text-indent: -999px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    z-index: 999999999999;
+        transform: all 1s ease;
+}
+
+.nav-toggle:before {
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 30px;
+    text-transform: none;
+    position: absolute;
+    content: "\f0c9";
+    text-indent: 0;
+    text-align: center;
+    line-height: 60px;
+    speak: none;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all 1s ease;
+}
+
+.icon.nav-toggle:hover {
+    color: slategrey;
+}
+
+.icon.nav-toggle.active::before {
+    content: "\f550";
+}
